@@ -1,0 +1,20 @@
+#fname{
+    border: solid black 2px;
+    border-radius: 8vh;
+}
+#lname{
+    border: solid black 2px;
+    border-radius: 8vh;
+
+}
+#showResult{
+    height:6vh;
+    width: 12vw;
+    border: solid black 2px;
+    width: 9vw; 
+}
+#btn1{
+    width: 10vw;
+    border-radius: 9vw;
+    background-color: rgb(160, 59, 59);
+}

@@ -10,7 +10,18 @@
 </head>
 <body>
     <div id="div1" >
-      <img src="pexels-dimitri-kuliuk-1488315.jpg"> 
+      <input type="text" id="fname" placeholder="Your name">
+
+      <input type="text" id="lname" placeholder="Lovers name"><br>
+      <button id="btn1" onclick="myfunc()">Click</button><br>
+      <div id="showResult" placeholder="love Percentage"></div>
     </div>
+    <script>
+      function myfunc(){
+       
+       var lovedata= Math.floor(Math.random() * 50)+50
+        var x=document.getElementById("showResult").innerHTML=lovedata+"%";
+      }
+    </script>
 </body>
 </html>
