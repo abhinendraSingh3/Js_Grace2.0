@@ -1,0 +1,25 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainCont{
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 20px;
+  background-color:#fdfac6
+}
+#one{
+  color:white;
+}
+#two{
+  color: rgb(66, 36, 2);
+}
