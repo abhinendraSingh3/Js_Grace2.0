@@ -10,7 +10,7 @@ let style2={};
 
 
 if (time>=6 && time<12){
-  status=" morning";
+  status="Good morning 🌄";
   styleCss.color="Green"
   style2.backgroundColor="#fdfac6"
 }
@@ -20,13 +20,13 @@ else if (time>=12 && time<16){
   style2.backgroundColor="Yellow"
 }
 else if (time>16 && time<21){
-  status=" Good evening";
+  status=" Good evening 🌇";
   styleCss.color="orange"
   style2.backgroundColor="#87CEEB"
 }
 else{
-  status=" Good night";
-  styleCss.color="Black"
+  status=" Good night 🌙";
+  styleCss.color="White"
   style2.backgroundColor="black"
 }
 
