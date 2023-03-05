@@ -1,17 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from 'react'
+import ReactDom from 'react-dom'
+import './index.css'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+import Navbar from './Navbar'
+import Card from './Card'
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDom.render(
+  <>
+<Navbar/>
+<Card title="Strangers Thing" img="./im/Stranger Things _ une saison 4 bien plus sombre et horrifique que les précédentes [VERDICT].jpeg"/>
+<Card title="Dahmer" img="./im/Dahmer Monster_ The Jeffery Dahmer Story.jpeg"/>
+<Card title="Bridgerton "img="./im/Bridgerton.png"/>
+<Card title="Wednesday" img="./im/Wednesday.jpeg"/>
+<Card title="Naruto" img="./im/na.jpeg"/>
+</>,
+document.getElementById('root')
+
+)
+
+
