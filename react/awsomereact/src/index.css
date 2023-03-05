@@ -32,7 +32,10 @@ justify-content: center;
 flex-direction: column;
 float: left;
  overflow: hidden;
-
+ transition: 1s;
+}
+.cardBody:hover{
+  transform: scale(1.1);
 
 }
 .cardBody img{
