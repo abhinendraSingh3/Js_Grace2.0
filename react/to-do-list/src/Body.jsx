@@ -9,11 +9,8 @@ const Body = () => {
     const addI = (event) => {
         // let newEntry={note:setN}
         // btnUpdate([newEntry,btnS])
-        updateN(setN)
-        
-
+        updateN(event.target.value)
     }
-
     return (
         <div className="mainCont">
             <div id="addIt">
@@ -28,7 +25,7 @@ const Body = () => {
                 <button typeof="submit" onClick={addI}>+</button>
             </div>
             <div id='writtenC'>
-                <p>{updateN}</p>
+                <p>{setN}</p>
             </div>
         </div>
     )
