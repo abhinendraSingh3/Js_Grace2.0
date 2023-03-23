@@ -2,13 +2,14 @@ import React, { useState } from "react";
 
 const Body = () => {
     const [setN, updateN] = useState();
-    const [btnS, btnUpdate] = useState();
+    // const [btnS, btnUpdate] = useState();
 
 
 
     const addI = (event) => {
-        let newEntry={note:setN}
-        btnUpdate([newEntry,btnS])
+        // let newEntry={note:setN}
+        // btnUpdate([newEntry,btnS])
+        updateN(setN)
         
 
     }
@@ -27,7 +28,7 @@ const Body = () => {
                 <button typeof="submit" onClick={addI}>+</button>
             </div>
             <div id='writtenC'>
-                <p>{btnS}</p>
+                <p>{updateN}</p>
             </div>
         </div>
     )
