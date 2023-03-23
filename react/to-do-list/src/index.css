@@ -49,5 +49,9 @@ outline: none;
 #writtenC{
   border: 2px solid red;
   height: 12rem;
-  width:12rem
+  width:12rem;
+  overflow-x: hidden;
+}
+#writtenC::-webkit-scrollbar{
+  display: none;
 }
