@@ -2,15 +2,16 @@ import React, { useState } from "react";
 
 const Body = () => {
     const [setN, updateN] = useState();
-    // const [btnS, btnUpdate] = useState();
+    const [btnS, btnUpdate] = useState([]);
 
 
 
-    const addI = (event) => {
-        // let newEntry={note:setN}
-        // btnUpdate([newEntry,btnS])
-        updateN(event.target.value)
-    }
+    const addI = () => {
+       btnUpdate((prevValue)=>{
+         return [...prevValue,setN]
+       });
+       updateN('')
+    };
     return (
         <div className="mainCont">
             <div id="addIt">
@@ -25,7 +26,9 @@ const Body = () => {
                 <button typeof="submit" onClick={addI}>+</button>
             </div>
             <div id='writtenC'>
-                <p>{setN}</p>
+                {btnS.map((valUe)=>{
+                      return<p>{valUe}</p>
+                })}
             </div>
         </div>
     )
