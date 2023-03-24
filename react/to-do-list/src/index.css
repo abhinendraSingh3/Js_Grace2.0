@@ -1,3 +1,6 @@
+*{
+  font-family: 'League Spartan', sans-serif;
+}
 body {
   margin: 0;
   padding: 0;
@@ -42,16 +45,27 @@ flex-direction: column;
 #iNp{
 border: 0px;
 outline: none;
+font-size:1.3vw
 }
 #addIt{
   margin: 12px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+
 }
 #writtenC{
   border: 2px solid red;
-  height: 12rem;
-  width:12rem;
-  overflow-x: hidden;
+  height: 22rem;
+  width:15rem;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  
 }
 #writtenC::-webkit-scrollbar{
   display: none;
+}
+#writtenC p{
+  font-size: 1.2vw;
+  margin:14px 0px 0px 12px
 }
