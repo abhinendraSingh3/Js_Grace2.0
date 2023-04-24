@@ -12,7 +12,7 @@ const Body = () => {
        });
        updateN('')
     };
-    return (
+    return ( 
         <div className="mainCont">
             <div id="addIt">
                 <input type={Text}
