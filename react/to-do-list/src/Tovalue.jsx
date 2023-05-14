@@ -1,6 +1,8 @@
 import React from "react";
 
-const Tovalue=()=>{
-    
+const Tovalue=(props)=>{
+    return(
+        <p>{props.text}</p>
+    )
 }
 export default Tovalue;

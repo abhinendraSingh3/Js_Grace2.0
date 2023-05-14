@@ -1,4 +1,4 @@
-import React, { useState } from "react";]
+import React, { useState } from "react";
 import Tovalue from "./Tovalue"; 
 
 
@@ -29,7 +29,7 @@ const Body = () => {
             </div>
             <div id='writtenC'>
                 {btnS.map((valUe)=>{
-                      return<p>{valUe}</p>
+                      return <Tovalue text={valUe} />
                 })}
             </div>
         </div>
