@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #f0f0f0;
+}
+.maindiv{
+    margin: 10em;
+    display:grid ;
+    justify-items: center;
+}
+#heading-sec p{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 15px;
+}
+#subs-sec{
+    margin: 1rem;
+}
+
+#button-sec{
+    margin: 1rem;
+}
+#type-sec{
+    display: flex;
+    justify-content: space-around;
+}
+#log{
+    border: 2px solid black;
+    padding: 15px;
+    width: 10rem;
+    height: 10px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+#state{
+    border: 2px solid black;
+    padding: 15px;
+    padding: 15px;
+    width: 10rem;
+    height: 10px;
+    border-radius: 10px;
+}
