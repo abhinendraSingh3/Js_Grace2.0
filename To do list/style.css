@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+body,html{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainDiv{
+
+    border: 2px solid black;
+    height: 300px;
+    width: 15rem;
+    
+}
+#firstHalf{
+margin-top: 1rem;
+margin-left: 1.4rem;
+}
+#secondHalf{
+    margin-top: 1rem;
+    
+}
+.dataDiv{
+    border: 2px solid black;
+    height: 20rem;
+}
+#text{
+    border: 2px solid black;
+}
