@@ -11,10 +11,14 @@ body,html{
     justify-content: center;
     align-items: center;
 }
+#mainHeading{
+    margin-left: 5rem;
+    font-style: italic;
+}
 .mainDiv{
-
     border: 2px solid black;
-    height: 300px;
+    border-radius: 5px;
+    height: 340px;
     width: 15rem;
     
 }
@@ -24,12 +28,20 @@ margin-left: 1.4rem;
 }
 #secondHalf{
     margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
     
 }
-.dataDiv{
-    border: 2px solid black;
-    height: 20rem;
+#dataDiv{
+    /* border: 2px solid red; */
+    height: 16.8rem;
+    overflow:scroll;
 }
-#text{
+#dataDiv::-webkit-scrollbar{
+    display: none;
+
+}
+.data{
     border: 2px solid black;
 }
