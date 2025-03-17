@@ -19,7 +19,7 @@
 
             <input type="text" id="desc" placeholder="Expense Desciption" required>
             
-            <select id="exType" name="Expense Desciption">
+            <select id="exType" name="Expense Desciption" required>
                 <option value="" disabled selected >Select a description</option>
                 <option value="House Hold">House Hold</option>
                 <option value="Travel">Travel</option>
@@ -27,8 +27,8 @@
                 <option value="other">Other</option>
             </select>
             
-            <input type="number" id="amount" placeholder="Amount">
-            <input type="button" value="Add Expense" id="btn">
+            <input type="number" id="amount" placeholder="Amount" required>
+            <input type="submit" value="Add Expense" id="btn">
             </form>
         </div>
         
@@ -47,11 +47,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>hello</td>
-                        <td>sd</td>
-                        <td>sdasd</td>
-                    </tr>
+                    
                     <!-- here dynamic data -->
                 </tbody>
 
