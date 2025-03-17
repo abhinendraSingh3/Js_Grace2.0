@@ -39,7 +39,7 @@ button.addEventListener('click',(e)=>{
     }
 
     else{
-        alert("please fill all")
+        alert("please fill all fields")
     }
 
 
