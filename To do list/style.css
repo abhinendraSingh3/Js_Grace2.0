@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+body,html{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mainHeading{
+    margin-left: 5rem;
+    font-style: italic;
+}
+.mainDiv{
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 340px;
+    width: 15rem;
+    
+}
+#firstHalf{
+margin-top: 1rem;
+margin-left: 1.4rem;
+}
+#secondHalf{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+    
+}
+#dataDiv{
+    /* border: 2px solid red; */
+    height: 16.8rem;
+    overflow:scroll;
+}
+#dataDiv::-webkit-scrollbar{
+    display: none;
+
+}
+.data{
+    border: 2px solid black;
+}

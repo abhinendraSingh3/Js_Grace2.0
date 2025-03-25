@@ -1,0 +1,31 @@
+.main{
+    border: 1px solid black;
+    width: 30rem;
+    height: auto;
+    border-radius: 15px;
+    display: flex;
+    padding: 12px
+}
+.second{
+    display: flex;
+    flex-direction: column;
+}
+h1,h2,h3{
+    margin: 5px;
+}
+
+img{
+    height: 18rem;
+    width: auto;
+
+}
+img{
+   margin-right: 12px
+}
+button{
+    width: 5rem;
+    height: 2rem;
+    background: rgb(255, 251, 27);
+    border-radius: 12px;
+    
+}

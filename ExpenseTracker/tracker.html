@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="tracker.css">
+</head>
+<body>
+    <div class="mainDiv">
+
+        <div id="heading">
+
+            <h1>Expense Tracker</h1>
+
+        </div>
+        <div class="inputDiv">
+            <form id="expenseTracker" >
+
+            <input type="text" id="desc" placeholder="Expense Desciption" required>
+            
+            <select id="exType" name="Expense Desciption" required>
+                <option value="" disabled selected >Select a description</option>
+                <option value="House Hold">House Hold</option>
+                <option value="Travel">Travel</option>
+                <option value="rent">rent</option>
+                <option value="other">Other</option>
+            </select>
+            
+            <input type="number" id="amount" placeholder="Amount" required>
+            <input type="submit" value="Add Expense" id="btn">
+            </form>
+        </div>
+        
+        <div id="summaryHeading">
+
+            <h3>Expense Summary</h3>
+
+        </div>
+        <div id="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Desciption</th>
+                        <th>Category</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <!-- here dynamic data -->
+                </tbody>
+
+            </table>
+            
+
+        </div>
+        
+    </div>
+    
+    <script src="expense.js"></script>
+</body>
+</html>
