@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Tovalue from "./Tovalue"; 
+
 
 const Body = () => {
     const [setN, updateN] = useState();
@@ -12,7 +14,7 @@ const Body = () => {
        });
        updateN('')
     };
-    return (
+    return ( 
         <div className="mainCont">
             <div id="addIt">
                 <input type={Text}
@@ -27,7 +29,7 @@ const Body = () => {
             </div>
             <div id='writtenC'>
                 {btnS.map((valUe)=>{
-                      return<p>{valUe}</p>
+                      return <Tovalue text={valUe} />
                 })}
             </div>
         </div>
