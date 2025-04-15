@@ -1,0 +1,28 @@
+import { useRef } from "react";
+function UseRef() {
+
+    const inputTake=useRef(); //this is the syntax
+
+    const focusInput=()=>{ //this is the function will be called when someone click on the button then it will focus on input box
+        inputTake.current.focus();
+        
+    }
+    
+
+    return(
+
+        <div>
+            <input ref={inputTake} type="text" placeholder="Enter something"></input>
+            <button onClick={focusInput}>Submit</button>
+            <h1>hello</h1>
+        </div>
+
+    )
+}
+
+export default UseRef;
+
+/* steps
+1- when the button will be clicked then it will go to the focusInput
+2-when it will reach focusInput after that it will see it refers to the inputTake something 
+3- then it will go to the inputTake then he will come to know it refers to the input type so we have to foucus in that.*/
